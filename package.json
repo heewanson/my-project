@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
     "stylelint": "^16.6.1",
     "stylelint-config-prettier-scss": "^1.0.0",
