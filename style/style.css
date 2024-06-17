@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  max-width: 1600px;
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
+  background-color: black;
 }
 
 .setion {
@@ -35,33 +37,46 @@
 .header_text {
   display: flex;
   justify-content: center;
-  padding-block: 30px;
+  padding-top: 80px;
   font-size: 100px;
   font-weight: 700;
+  color: white;
   text-transform: uppercase;
   list-style: none;
+  background-color: #262626;
 }
 
 .title-text {
-  padding-top: 40px;
+  padding-top: 70px;
   font-size: 35px;
   font-weight: 900;
+  color: white;
   text-align: center;
   letter-spacing: 3px;
 }
 
 .profile_upper {
   display: flex;
+  gap: 30px;
   justify-content: center;
-  padding: 100px;
+  padding-inline: 140px;
+  padding-top: 70px;
+  color: white;
 }
 .profile_upper-1 {
-  display: grid;
-  grid-template-columns: 1fr;
+  max-width: 300px;
+}
+.profile_upper_2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.profile_upper_3 {
+  padding-top: 70px;
 }
 .profile_allign {
   display: flex;
   justify-content: center;
+  color: white;
 }
 .profile_program {
   display: grid;
@@ -96,6 +111,13 @@
 }
 .my_work_img {
   width: 300px;
+  background-color: black;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
 }
 
 .footer {
