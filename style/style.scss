@@ -1,12 +1,143 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
 
-.navigation {
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.setion {
+  max-width: 1200px;
 }
 
-.section {
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+  font-size: 18px;
+  line-height: 100%;
+  color: white;
+  text-transform: uppercase;
+
+  //background-color: oklch(80% 0.15 30deg);
+  background-color: black;
+  -ms-overflow-style: none;
+}
+
+.menulist {
+  display: flex;
+  gap: 0.75rem;
+  padding-block: 10px;
+  padding-left: 0;
+  margin-block: 0;
+  list-style: none;
+}
+
+.header {
+  &_text {
+    display: flex;
+    justify-content: center;
+    padding-block: 30px;
+
+    //margin-inline: auto;//
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+  }
+}
+
+.title-text {
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.profile {
+  &_upper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    //background-color: blueviolet;
+  }
+
+  &_allign {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_program {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+
+    &_1 {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+    }
+
+    &-icon {
+      width: 50px;
+    }
+  }
+}
+
+.my_work_align {
   display: flex;
   justify-content: center;
+}
+
+.my_work {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-block: 50px;
+
+  //background-color: brown;
+  &_img {
+    width: 300px;
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 30px;
+  color: azure;
   list-style: none;
+  background-color: black;
+
+  &_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    font-weight: 500;
+    list-style: none;
+  }
+
+  &_thin {
+    font-weight: 100;
+
+    &-1 {
+      padding-bottom: 20px;
+      font-weight: 100;
+      color: white;
+      text-align: center;
+      background-color: black;
+    }
+  }
 }

@@ -1,22 +1,121 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
+
+.setion {
+  max-width: 1200px;
+}
+
 .container {
-  background-color: oklch(0.8 0.15 30);
-  max-width: 60rem;
-  margin-inline: auto;
-  padding-inline: 1.5rem;
-  line-height: 100%;
-  text-transform: uppercase;
-  font-size: 24px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+  font-size: 18px;
+  line-height: 100%;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
   -ms-overflow-style: none;
 }
+
 .menulist {
-  list-style: none;
-  padding-left: 0;
-  margin-block: 0;
   display: flex;
   gap: 0.75rem;
+  padding-block: 10px;
+  padding-left: 0;
+  margin-block: 0;
+  list-style: none;
+}
+
+.header_text {
+  display: flex;
+  justify-content: center;
+  padding-block: 30px;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.title-text {
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.profile_upper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.profile_allign {
+  display: flex;
+  justify-content: center;
+}
+.profile_program {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: none;
+}
+.profile_program_1 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.profile_program-icon {
+  width: 50px;
+}
+
+.my_work_align {
+  display: flex;
+  justify-content: center;
+}
+
+.my_work {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-block: 50px;
+}
+.my_work_img {
+  width: 300px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 30px;
+  color: azure;
+  list-style: none;
+  background-color: black;
+}
+.footer_1 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  font-weight: 500;
+  list-style: none;
+}
+.footer_thin {
+  font-weight: 100;
+}
+.footer_thin-1 {
+  padding-bottom: 20px;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  background-color: black;
 }
