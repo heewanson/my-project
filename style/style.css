@@ -136,11 +136,6 @@
      object-fit: cover;
 }
 
-.footer_container {
-  display: flex;
-  justify-content: center;
-}
-
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
