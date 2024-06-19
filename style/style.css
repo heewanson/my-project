@@ -3,13 +3,19 @@
   font-family: GmarketSansMedium;
   font-style: normal;
   font-weight: normal;
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
 }
 @font-face {
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
-  src: url("//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format("woff2"), url("//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format("woff"), url("//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format("opentype");
+  src: url("//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
 }
 * {
   box-sizing: border-box;
@@ -55,7 +61,7 @@
   padding-inline: 80px;
   font-family: GmarketSansMedium;
   color: white;
-  background: linear-gradient(to bottom, black, rgba(144, 29, 20, 0.723));
+  background: linear-gradient(to bottom, black, rgba(21, 11, 119, 0.723));
 }
 .header-1 {
   font-size: 140px;
@@ -133,7 +139,13 @@
   width: 300px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+.blinking-image {
+  transition: all 300ms ease-in-out;
+}
+.my_work_img:hover {
+  background-color: rgba(91, 88, 88, 0.448);
 }
 
 .footer {
