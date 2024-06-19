@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: GmarketSansMedium;
   font-style: normal;
@@ -68,72 +67,22 @@
   justify-content: center;
 }
 
-.profile {
-  display: flex;
-  gap: 40px;
-  padding-inline: 80px;
-  padding-top: 80px;
-  font-family: "Noto Sans KR", sans-serif;
-}
-.profile-left {
-  flex-shrink: 0; /* 크기 고정 */
-  width: 300px;
-  height: 300px;
-}
-.profile-right-upper {
-  font-family: GmarketSansMedium;
-  font-size: 35px;
-  font-weight: 900;
-}
-.profile-right-bottom {
-  padding-block: 20px;
-}
-
 .title {
-  padding-block: 80px;
+  padding-top: 80px;
   font-family: GmarketSansMedium;
   font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
 
-.program {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
-  font-family: "Noto sans";
-  text-transform: capitalize;
-}
-.program-box {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-}
-.program-flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.program-picture {
-  width: 60px;
-}
-.program-1 {
-  padding-top: 10px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
 .my_work {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   padding-bottom: 100px;
 }
 .my_work_img {
-  width: 300px;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 1200px;
 }
 
 .footer_container {
